@@ -4,7 +4,8 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri = 'mongodb://localhost:27017';
+//const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://clemmie_db_user:1240135tema@cluster0.alon9pn.mongodb.net/plp_bookstore?retryWrites=true&w=majority';
 
 // Database and collection names
 const dbName = 'plp_bookstore';
